@@ -21,7 +21,9 @@ To run this
 
 There is a Vagrant port forwarding rule, and firewall setup to allow the yum repo to be accessed on the host machine as http://localhos:8088/repo
  
-This project is intended as documentation of how to setup this build environment, and as a starting point for further customisation, I'm sure it isn't perfect.
+This project is intended as documentation of how to setup this build environment, and as a starting point for further customisation, I'm sure it isn't perfect, I hope it is useful.
+
+It's all released under GPL with no promise that it is fot for any purpose - see LICENCE.txt 
 
 I've tried to group the code logically, there are 4 modules
 
