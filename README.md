@@ -8,7 +8,7 @@ To run this
  
  1. Install Virtualbox https://www.virtualbox.org/wiki/Downloads (again on Ubuntu `apt-get install virtualbox`)
 
- 1. Clone this reporitory `git clone git@github.com:practicalweb/vagrant-rpmbuild.git`
+ 1. Clone this reporitory `git clone https://github.com/practicalweb/vagrant-rpmbuild.git`
 
  1. run `vagrant up` from the root of your cloned repository (NB the first time you do the a 600Mb base image will be downloaded)
 
