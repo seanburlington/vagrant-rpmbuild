@@ -1,0 +1,7 @@
+[myrepo]
+name=Custom Packages
+baseurl=http://localhost/repo/
+enabled=1
+gpgcheck=1
+gpgkey=file:///home/vagrant/MY-RPM-GPG-KEY.pub
+
