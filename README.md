@@ -10,7 +10,7 @@ To run this
 
  1. Clone this reporitory `git clone git@github.com:practicalweb/vagrant-rpmbuild.git`
 
- 1. run `vagrant up` from the root of your cloned repository (NB the first time you do the a 600Mb base image will be dowmloaded)
+ 1. run `vagrant up` from the root of your cloned repository (NB the first time you do the a 600Mb base image will be downloaded)
 
  1. run `vagrant ssh` to connect to the new VM  
 
@@ -21,7 +21,7 @@ To run this
  
 This project is intended as documentation of how to setup this build environment, and as a starting point for further customisation, I'm sure it isn't perfect.
 
-I've tried to group the code logically, there are 4 modulea
+I've tried to group the code logically, there are 4 modules
 
 <dl>
   <dt>base</dt>
@@ -46,6 +46,6 @@ The base box I've defined is a minimal install of CentOS 6.3 (64 bit) with the d
 
 Base boxes are quite a heavy download, but you only need to do it once and then you can have as many VMs as you want based on them, because the base is minimal and all extra config is done in puppet each of these VMs can serve a very differnt purpose - just by changing the Vagrantfile and puppet config.
 
-The Vagrantfile runs puppet in standalone mode, but the modules /should/ work with a client/server Puppet setup - so hopefully migrating the Vagrant setup to any Puppet manged system should be easy.
+The Vagrantfile runs puppet in standalone mode, but the modules _should_ work with a client/server Puppet setup - so hopefully migrating the Vagrant setup to any Puppet manged system should be easy.
 
 
