@@ -19,7 +19,7 @@ To run this
  1. To install the demo package on the VM run `sudo yum install demo`
 
 
-There is a Vagrant port forwarding rule, and firewall setup to allow the yum repo to be accessed on the host machine as http://localhos:8088/repo
+There is a Vagrant port forwarding rule, and firewall setup to allow the yum repo to be accessed on the host machine as http://localhost:8088/repo
  
 This project is intended as documentation of how to setup this build environment, and as a starting point for further customisation, I'm sure it isn't perfect, I hope it is useful.
 
