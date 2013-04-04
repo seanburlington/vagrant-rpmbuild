@@ -6,10 +6,9 @@ Vagrant::Config.run do |config|
   # options are documented and commented below. For a complete reference,
   # please see the online documentation at vagrantup.com.
 
-  # This box is a minimal install of centos 6.3  
-  config.vm.box = "centos63"
-  config.vm.box_url = 'http://www.practicalweb.co.uk/vagrant/box/centos-63-64.box'
-  config.vm.host_name = "centos-63-64-rpmbuild.vagrant"
+  config.vm.box = "centos64"
+  config.vm.box_url = 'http://developer.nrel.gov/downloads/vagrant-boxes/CentOS-6.4-x86_64-v20130309.box'
+  config.vm.host_name = "centos64-rpmbuild.vagrant"
   config.vm.customize ["modifyvm", :id, "--memory", 1024]
 
 
